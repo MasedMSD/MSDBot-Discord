@@ -9,7 +9,7 @@ import { glob } from "glob";
  *
  * @class
  */
-export class Core extends Client {
+export class Core extends Client<true> {
 	/**
 	 * Коллекция кнопок
 	 *
