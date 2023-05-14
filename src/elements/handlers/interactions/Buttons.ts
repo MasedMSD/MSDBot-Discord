@@ -14,7 +14,8 @@ export default new Handler({
 			const { buttons } = client;
 
 			const button = buttons.find(({ name }) => {
-				customId.startsWith(name as string) ?? (name as string[]).find((option) => customId.startsWith(option));
+				if (typeof name === "string") return customId.startsWith(name);
+				if (Array.isArray(name)) return name.find((option) => customId.startsWith(option));
 			});
 
 			if (!button) return;
