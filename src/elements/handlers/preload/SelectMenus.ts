@@ -11,7 +11,7 @@ export default new Handler({
 			cwd: resolve(process.cwd(), "src", "elements"),
 		});
 
-		if (select_menus.length <= 0) return console.log("[HANDLING] | У вас нет ни одного модального окна!");
+		if (select_menus.length <= 0) return console.log("[HANDLING] | У вас нет ни одного выпающего списка!");
 
 		select_menus.forEach(async <P extends string>(filePath: P) => {
 			const select_menu: SelectMenu = await importFile(resolve(process.cwd(), "src", "elements", filePath));
