@@ -55,7 +55,7 @@ export default new Handler({
 				return;
 			}
 
-			if (devOnly && DEVELOPERS.includes(author.id)) {
+			if (devOnly && !DEVELOPERS.includes(author.id)) {
 				const embed = embedResult("User Error", "You can't use this!", "Fail");
 				await message.reply({ embeds: [embed] });
 

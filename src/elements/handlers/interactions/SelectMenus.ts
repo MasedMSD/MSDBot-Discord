@@ -49,7 +49,7 @@ export default new Handler({
 				return;
 			}
 
-			if (devOnly && DEVELOPERS.includes(user.id)) {
+			if (devOnly && !DEVELOPERS.includes(user.id)) {
 				const embed = embedResult("User Error", "You can't use this!", "Fail");
 				await interaction.reply({ embeds: [embed], ephemeral: true });
 
