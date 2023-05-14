@@ -1,0 +1,41 @@
+{
+	"name": "msdbot-discord",
+	"version": "1.0.0",
+	"description": "🚀┆Powerful Multifunctional Discord Bot",
+	"license": "Apache-2.0",
+	"private": true,
+	"contributors": [
+		"MasedMSD"
+	],
+	"keywords": [
+		"discordjs",
+		"discordbot"
+	],
+	"scripts": {
+		"start": "ts-node src/index.ts"
+	},
+	"homepage": "https://github.com/MSD-Incorporated/MSDBot-Discord.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MSD-Incorporated/MSDBot-Discord.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MSD-Incorporated/MSDBot-Discord/issues"
+	},
+	"engines": {
+		"node": ">=16.9.0"
+	},
+	"packageManager": "yarn@3.5.1",
+	"devDependencies": {
+		"@types/glob": "^8.1.0",
+		"@types/node": "^20.1.4"
+	},
+	"dependencies": {
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.0.3",
+		"glob": "^10.2.3",
+		"ts-node": "^10.9.1",
+		"tslib": "^2.5.0",
+		"typescript": "^5.0.4"
+	}
+}
