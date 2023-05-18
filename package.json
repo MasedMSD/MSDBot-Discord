@@ -14,13 +14,13 @@
 	"scripts": {
 		"start": "ts-node src/index.ts"
 	},
-	"homepage": "https://github.com/MSD-Incorporated/MSDBot-Discord.git",
+	"homepage": "https://github.com/MasedMSD/MSDBot-Discord.git",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MSD-Incorporated/MSDBot-Discord.git"
+		"url": "https://github.com/MasedMSD/MSDBot-Discord.git"
 	},
 	"bugs": {
-		"url": "https://github.com/MSD-Incorporated/MSDBot-Discord/issues"
+		"url": "https://github.com/MasedMSD/MSDBot-Discord/issues"
 	},
 	"engines": {
 		"node": ">=16.9.0"
